@@ -1,0 +1,13 @@
+pixelformat = RGBP, description = RGB-5-6-5
+pixelformat = RGB4, description = RGB-8-8-8, unpacked 24 bpp
+pixelformat = YUYV, description = YUV 4:2:2 packed, YCbYCr
+pixelformat = UYVY, description = YUV 4:2:2 packed, CbYCrY
+pixelformat = VYUY, description = YUV 4:2:2 packed, CrYCbY
+pixelformat = YVYU, description = YUV 4:2:2 packed, YCrYCb
+pixelformat = 422P, description = YUV 4:2:2 planar, Y/Cb/Cr
+pixelformat = NV12, description = YUV 4:2:0 planar, Y/CbCr
+pixelformat = TV12, description = YUV 4:2:0 planar, Y/CbCr, Tiled
+pixelformat = NV21, description = YUV 4:2:0 planar, Y/CrCb
+pixelformat = NV16, description = YUV 4:2:2 planar, Y/CbCr
+pixelformat = NV61, description = YUV 4:2:2 planar, Y/CrCb
+pixelformat = YU12, description = YUV 4:2:0 planar, Y/Cb/Cr
