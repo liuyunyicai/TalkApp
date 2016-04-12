@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\clear_bt_icon.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\clear_bt_icon.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\icn_close.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\icn_close.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\exit_icon.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\exit_icon.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\hangout.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\hangout.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\book_icon.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\book_icon.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\loading_img.jpg",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\loading_img.jpg"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\photo1.jpg",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\photo1.jpg"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\make_call_icon.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\make_call_icon.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\target_user_photo.jpg",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\target_user_photo.jpg"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\recv_call.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\recv_call.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\netset_icon.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\netset_icon.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\loading_img1.jpg",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\loading_img1.jpg"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\return_icon.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\return_icon.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\person_icon.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\person_icon.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\record_icon.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\record_icon.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\btn_add.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\btn_add.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\person_icon_unregisted.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\person_icon_unregisted.png"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\load_img.jpg",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\load_img.jpg"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\speaking_record_bt.png",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\mipmap\\speaking_record_bt.png"
+    }
+]

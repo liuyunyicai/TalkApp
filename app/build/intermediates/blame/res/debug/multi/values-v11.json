@@ -1,0 +1,394 @@
+[
+    {
+        "outputFile": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 89,
+                    "endOffset": 277
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 325,
+                        "endColumn": 90,
+                        "endOffset": 411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 696
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 701,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 1136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1549
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1141,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1554,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1975
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1569,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1980,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2402
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1995,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 2417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2407,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2827
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2422,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 2842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2832,
+                    "endColumn": 88,
+                    "endOffset": 2916
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 3084,
+                        "endColumn": 88,
+                        "endOffset": 3168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2921,
+                    "endColumn": 100,
+                    "endOffset": 3017
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 3173,
+                        "endColumn": 100,
+                        "endOffset": 3269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3022,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 3425
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 3274,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 3677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3430,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3845
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3682,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 4097
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3850,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 3952
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4339,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 4441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3957,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 4081
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4446,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 4570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4086,
+                    "endColumn": 70,
+                    "endOffset": 4152
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 4812,
+                        "endColumn": 70,
+                        "endOffset": 4878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4157,
+                    "endColumn": 82,
+                    "endOffset": 4235
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 4883,
+                        "endColumn": 82,
+                        "endOffset": 4961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 4240,
+                    "endLine": 110,
+                    "endColumn": 12,
+                    "endOffset": 7943
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 4966,
+                        "endLine": 114,
+                        "endColumn": 12,
+                        "endOffset": 8669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 7948,
+                    "endLine": 162,
+                    "endColumn": 12,
+                    "endOffset": 11791
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 8674,
+                        "endLine": 166,
+                        "endColumn": 12,
+                        "endOffset": 12517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 11796,
+                    "endColumn": 90,
+                    "endOffset": 11882
+                },
+                "from": {
+                    "file": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12759,
+                        "endColumn": 90,
+                        "endOffset": 12845
+                    }
+                }
+            }
+        ]
+    }
+]

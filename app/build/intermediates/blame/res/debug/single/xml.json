@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\xml\\pref_notification.xml"
+    },
+    {
+        "merged": "F:\\AS_sources\\TalkApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\setting.xml",
+        "source": "F:\\AS_sources\\TalkApp\\app\\src\\main\\res\\xml\\setting.xml"
+    }
+]

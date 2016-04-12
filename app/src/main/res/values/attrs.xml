@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DialButtonStyle">
+        <attr name="bt_num" format="string"/>
+        <attr name="bt_txt" format="string"/>
+    </declare-styleable>
+</resources>

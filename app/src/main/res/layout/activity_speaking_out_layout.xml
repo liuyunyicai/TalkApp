@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tran_blue2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/blue"
+        android:padding="2dp">
+
+        <SurfaceView
+            android:id="@+id/outer_sur"
+            android:layout_width="270dp"
+            android:layout_height="360dp"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <!--头部信息-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#70000000">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true">
+
+            <cn.edu.hust.buildingtalkback.myview.CircleImageView
+                android:id="@+id/target_user_photo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/target_user_photo"
+                app:border_color="@android:color/white"
+                app:border_width="2dp" />
+
+            <TextView
+                android:id="@+id/target_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/target_user_photo"
+                android:gravity="center"
+                android:text="701"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/speaking_time"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignLeft="@id/target_user_name"
+                android:layout_below="@id/target_user_name"
+                android:gravity="center"
+                android:text="@string/speaking_time_txt"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--挂断和接通按钮-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#30000000">
+        <!--录音-->
+        <RelativeLayout
+            android:id="@+id/speaking_record_bt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/speaking_bt">
+
+            <cn.edu.hust.buildingtalkback.myview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/speaking_record_bt"
+                app:border_color="@color/blue"
+                app:border_width="1dp" />
+        </RelativeLayout>
+
+        <!--挂断-->
+        <RelativeLayout
+            android:id="@+id/speaking_hangout_bt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/speaking_bt">
+
+            <cn.edu.hust.buildingtalkback.myview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/hangout"
+                app:border_color="@color/red"
+                app:border_width="1dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

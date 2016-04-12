@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <SurfaceView
+        android:id="@+id/sv_ringing"
+        android:layout_width="352dp"
+        android:layout_height="288dp"
+        android:layout_marginLeft="100dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_caller_ringring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_answer_call_ringring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4dd862"
+            android:height="90dp"
+            android:text="@string/answer"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:width="150dp" />
+
+        <Button
+            android:id="@+id/btn_end_call_ringring"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#ff3b2f"
+            android:height="90dp"
+            android:text="@string/hang_up"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:width="150dp" />
+    </LinearLayout>
+
+</LinearLayout>

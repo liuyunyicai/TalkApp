@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:keepScreenOn="true"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:layout_marginTop="56dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_make_call"
+            style="@style/MainViewButtonStyle"
+            android:drawableTop="@drawable/call"
+            android:text="@string/call"
+            />
+
+        <Button
+            android:id="@+id/btn_record_query"
+            style="@style/MainViewButtonStyle"
+            android:drawableTop="@drawable/history"
+            android:text="@string/record_query"
+            />
+
+        <Button
+            android:id="@+id/btn_message"
+            style="@style/MainViewButtonStyle"
+            android:drawableTop="@drawable/msg"
+            android:text="@string/message"
+            />
+
+        <Button
+            android:id="@+id/btn_smart_home"
+            style="@style/MainViewButtonStyle"
+            android:drawableTop="@drawable/smart_home"
+            android:text="@string/smart_home"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        >
+
+        <Button
+            android:id="@+id/btn_security"
+            style="@style/MainViewButtonStyle"
+            android:drawableTop="@drawable/security"
+            android:text="@string/security"
+            />
+
+        <Button
+            android:id="@+id/btn_elevator"
+            style="@style/MainViewButtonStyle"
+            android:drawableTop="@drawable/elevator"
+            android:text="@string/elevator"
+            />
+
+        <Button
+            android:id="@+id/btn_accessory"
+            style="@style/MainViewButtonStyle"
+            android:drawableTop="@drawable/accessory"
+            android:text="@string/accessory"
+            />
+
+        <Button
+            android:id="@+id/btn_monitor"
+            style="@style/MainViewButtonStyle"
+            android:drawableTop="@drawable/monitor"
+            android:text="@string/monitor"
+            />
+    </LinearLayout>
+
+</LinearLayout>

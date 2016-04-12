@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.edu.hust.buildingtalkback"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19"
+        tools:ignore="OldTargetApi" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT"/>
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.LoadingActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTask" />
+
+        <activity android:name=".activities.SpeakingActivity" />
+
+        <activity android:name=".activities.DialActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".activities.RingingActivity" />
+
+        <activity android:name=".activities.RecordActivity" />
+
+        <activity android:name=".activities.SettingActivity"
+            android:theme="@android:style/Theme.Holo.Light" />
+
+        <activity android:name=".mytest.TestActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <!--呼入呼出电话-->
+        <activity android:name=".ringing.CalloutRingActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTop"
+            />
+
+        <activity android:name=".ringing.CallInRingActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTop"
+            />
+
+        <activity android:name=".speaking.SpeakingInActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".speaking.SpeakingOutActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <!-- 用于处理SIP逻辑的Service -->
+        <service android:name=".sip.SipService"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0d0d0d</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="transparent_bg">#30000000</color>
+    <color name="yellow">#FFFF00</color><!--黄色 -->
+    <color name="gray">#dcd9d9</color>
+
+    <color name="tran_blue">#4bc7c3</color>
+    <color name="tran_blue1">#8ef1ed</color>
+    <color name="tran_blue2">#c8fffd</color>
+
+    <color name="tran_blue_dark">#3e64e1</color>
+    <color name="tran_blue1_dark">#67b0f1</color>
+
+    <color name="tran_red">#f48792</color>
+
+    <color name="red">#e41328</color>
+
+    <color name="blue">#86f492</color>
+</resources>

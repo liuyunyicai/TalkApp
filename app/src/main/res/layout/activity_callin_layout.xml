@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--呼出电话界面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/tran_blue1_dark"
+    >
+
+    <!--头部信息-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/tran_blue_dark"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true">
+
+            <cn.edu.hust.buildingtalkback.myview.CircleImageView
+                android:id="@+id/target_user_photo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:border_width="2dp"
+                app:border_color="@android:color/white"
+                android:src="@mipmap/photo1"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/target_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@id/target_user_photo"
+                android:layout_marginLeft="15dp"
+                android:text="701"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/target_user_call_state"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignLeft="@id/target_user_name"
+                android:layout_below="@id/target_user_name"
+                android:textColor="@color/red"
+                android:textSize="17sp"
+                android:text="@string/callin_state_txt"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <RelativeLayout
+            android:id="@+id/main_surface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="2dp"
+            android:layout_centerInParent="true"
+            >
+
+            <SurfaceView
+                android:id="@+id/ringin_sur"
+                android:layout_width="210dp"
+                android:layout_height="280dp"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/calling_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/main_surface"
+            android:text="@string/calling_state"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:id="@+id/recv_bt"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/recv_bt_bg"
+            >
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/recv_call"
+                android:scaleType="fitXY"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/hangout_bt"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/hangout_bt_bg"
+            android:layout_marginLeft="1dp"
+            >
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/hangout"
+                android:scaleType="fitXY"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

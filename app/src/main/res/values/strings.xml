@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">数字对讲系统</string>
+    <string name="action_settings">设置</string>
+
+    <string name="context_menu">主菜单</string>
+
+    <string name="net_set">用户设置</string>
+    <string name="record_txt">通话记录</string>
+    <string name="book_txt">常用联系人</string>
+    <string name="exit_txt">退出应用</string>
+
+    <string name="sip_reg_succ">服务器连接成功</string>
+    <string name="sip_reg_fail">服务器连接失败，请检查用户设置！</string>
+
+
+    <string name="key_username">username</string>
+    <string name="key_password">password</string>
+    <string name="key_serverip">serverip</string>
+    <string name="server_setting">服务器设置</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="serverip">服务器地址</string>
+
+    <string name="call_title">拨号</string>
+    <string name="call">呼叫</string>
+    <string name="record_query">记录</string>
+    <string name="monitor">监视</string>
+    <string name="message">信息</string>
+    <string name="smart_home">家居</string>
+    <string name="security">安防</string>
+    <string name="elevator">电梯</string>
+    <string name="accessory">附件</string>
+    <string name="setting">设置</string>
+
+    <string name="call_all">所有</string>
+    <string name="call_incoming">呼入</string>
+    <string name="call_outgoing">呼出</string>
+    <string name="call_missed">未接</string>
+
+    <string name="wrong_call_name">您呼叫的用户为空号！</string>
+    <string name="wrong_call_self">注意不可自己呼叫自己！</string>
+    <string name="register_hint">请您先登录！</string>
+    <string name="hang_out_hint">退出前请先挂断电话！</string>
+
+    <string name="clear_record">清空记录</string>
+    <string name="call_type">呼叫类型</string>
+    <string name="call_user">呼叫对象</string>
+    <string name="call_time">通话时间</string>
+    <string name="call_period">通话时长</string>
+    <string name="call_history">通话记录</string>
+
+    <string name="call_hint">请输入对方号码</string>
+    <string name="back">返回</string>
+
+    <string name="digit_1">1</string>
+    <string name="digit_2">2</string>
+    <string name="digit_3">3</string>
+    <string name="digit_4">4</string>
+    <string name="digit_5">5</string>
+    <string name="digit_6">6</string>
+    <string name="digit_7">7</string>
+    <string name="digit_8">8</string>
+    <string name="digit_9">9</string>
+    <string name="digit_0">0</string>
+
+    <string name="hour">小时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+
+    <string name="backspace">退格</string>
+    <string name="clear">清空</string>
+
+    <string name="answer">接听</string>
+    <string name="hang_up">挂断</string>
+    <string name="talking">通话中</string>
+    <string name="title_activity_main_view">MainViewActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="target_user_call_state_txt">正在呼叫...</string>
+    <string name="speaking_time_txt">通话时间：</string>
+    <string name="calling_state">网络状态：良好</string>
+
+    <string name="callin_state_txt">来电提示...</string>
+
+    <string name="no_reply_fail">您呼叫的用户暂时无人接听！界面即将关闭...</string>
+    <string name="call_busy_hint">您呼叫的用户正在通话中！</string>
+
+</resources>

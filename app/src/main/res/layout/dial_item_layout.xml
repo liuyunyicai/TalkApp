@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dial_bg"
+    >
+
+    <TextView
+        android:id="@+id/dial_num_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:text="@string/digit_1"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal|bottom"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <TextView
+        android:id="@+id/dial_txt_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="ABC"
+        android:textSize="15sp"
+        android:gravity="center_horizontal|top"
+        />
+
+</LinearLayout>
